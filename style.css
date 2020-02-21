@@ -1,29 +1,23 @@
-body,html 
+.bold
 {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-.background-color
-{
-    background-color: rgb(87, 156, 135);
-}
-
-.header
-{
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    font-weight: bold;
 }
 
 h2
 {
-    color: rgb(253,203,70);
     font-size: 1em;
+    padding-top: 35px;
 }
 
-#logo-omf
+.color-text--yellow
+{
+    color: rgb(253,203,70);
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none
+}
+
+.logo-omf
 {
     width: 130px;
     align-items: center;
@@ -31,50 +25,131 @@ h2
 
 .section
 {
-    border: solid violet;
+    padding-top: 20px;
 }
 
 .section-grid
 {
     display: grid;
-    grid-template-columns: 2fr 2fr;   
+    grid-template-columns: 2fr 2fr; 
 }
 
 .align-content
 {
     text-align: center;
     height: 160px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box__shadow
+{
+    box-shadow: 1px 1px 5px rgb(189, 188, 188);;
+}
+
+.fa, .fas
+{
+    padding-top: 30px;
+    margin-bottom: -10px;
+    font-size: 30px;
+    background: -webkit-linear-gradient(left, rgb(239, 71, 95), rgb(246, 145, 106));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-note
+{
+    margin-top: -30px;
 }
 
 .article-note
 {
     background-color: rgb(252, 223, 219);
-    border: solid red;
+}
+
+.text__note--font
+{
+    color: rgb(60, 18, 24); 
+    font-family: 'Damion', cursive; 
+}
+
+.menu__note--size
+{
+    margin-top: -8px;
+    font-size: 1.4em;
 }
 
 .article-chic
 {
+    font-family: 'Odibee Sans', cursive;
     background-color: rgb(255, 245, 254);
-    border: solid green;
+}
+
+.title-chic
+{
+    background: -webkit-linear-gradient(left, rgb(199,116,18), rgb(144, 91, 253));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.menu__chic--color
+{
+    color: rgb(199,116,18);
+}
+
+.article__police--courgette
+{
+    font-family: 'Courgette', cursive;    
 }
 
 .article-delice
 {
-    background-color: rgb(249, 249, 249);
-    border: solid blue; 
+    background-color: rgb(249, 249, 249); 
+}
+
+.title-delice
+{
+    background: -webkit-linear-gradient(left, rgb(4, 49, 223), rgb(8, 135, 251));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.menu__delice--color
+{
+    color: rgb(8, 135, 251);
 }
 
 .article-palette
 {
     background-color: rgb(253, 255, 253);
-    border: solid orange;
 }
 
-#img-music
+.title-palette
 {
-    width: 40px;
+    background: -webkit-linear-gradient(left, rgb(61, 147, 57), rgb(191, 255, 126));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.menu__palette--color
+{
+    color: rgb(114,191,86);
+}
+
+.menu__element--left
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.menu__element--right
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 30px;
 }
 
 .btn
@@ -90,12 +165,6 @@ h2
     padding-top: 5px;
     padding-bottom: 5px;
     width: 150px;
-}
-
-.footer
-{
-    display: flex;
-    justify-content: space-around; 
 }
 
 

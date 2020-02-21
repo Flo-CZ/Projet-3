@@ -5,53 +5,57 @@
     <title>Ohmyfood</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="common.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette%7CDamion%7COdibee+Sans%7CRoboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f8c7f0cf85.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
-    <header class="header background-color">  
-        <img id="logo-omf" src="img/logo.png" alt="Logo Ohmyfood" title="Ohmyfood">
-    </header>
-        <section class="section">
-            <div class="section-grid">
-                <article class="article-note">
-                    <div class="align-content">
-                        <img id="img-music" src="https://img.icons8.com/windows/96/000000/musical-notes.png">
-                        <h1 class="title-note">La note enchantée</h1>
-                        <p class="menu">Menu</p>
-                    </div>
-                </article>
-                    <article class="article-chic">
-                <div class="align-content">
-                    <h1 class="title-chic">Le chic à la française</h1>
-                    <p class="menu">Menu</p>
-                </div>
-            </article>
-            <article class="article-delice">
-                <div class="align-content">
-                    <h1 class="title-delice">Le délice des papilles</h1>
-                    <p class="menu">Menu</p>
-                </div>
-            </article>
-            <article class="article-palette">
-                <div class="align-content">
-                    <h1 class="title-palette">La palette du goût</h1>
-                    <p class="menu">Menu</p>
-                </div>
-            </article>
+<header class="header background-color">  
+    <img class="logo-omf" src="img/logo.png" alt="Logo Ohmyfood" title="Ohmyfood">
+</header>
+<section class="section">
+    <div class="section-grid">
+        <article class="article-note box__shadow width__article menu__element--left">
+            <div class="align-content">
+                <i class="fas fa-music"></i>
+                <h2 class="title-note text__note--font">La note enchantée</h2>
+                <p class="menu__note--size bold text__note--font">Menu</p>
             </div>
-            <article class="article">
-                <div class="btn">
-                    <h2 class="soon background-color">Prochainement</h2>
-                </div>
-            </article>
-        </section>
-            <footer class="footer background-color">
-                <nav class="nav">
-                    <h2 class="text-footer">Mentions légales</h2>
-                </nav>
-                <nav class="nav"> 
-                    <h2 class="text-footer">Contactez-nous</h2> 
-                </nav>    
-            </footer> 
+        </article>
+        <article class="article-chic box__shadow menu__element--right">
+            <div class="align-content">
+                <h2 class="title-chic">Le chic à la française</h2>
+                <p class="menu__chic--color bold">Menu</p>
+            </div>
+        </article>
+        <article class="article-delice box__shadow article__police--courgette menu__element--left">
+            <div class="align-content">
+                <h2 class="title-delice">Le délice des papilles</h2>
+                <p class="menu__delice--color bold">Menu</p>
+            </div>
+        </article>
+        <article class="article-palette box__shadow article__police--courgette menu__element--right">
+            <div class="align-content">
+                <h2 class="title-palette">La palette du goût</h2>
+                <p class="menu__palette--color bold">Menu</p>
+            </div>
+        </article>
+            </div>
+        <article class="article">
+            <div class="btn">
+                 <p class="soon background-color color-text--yellow">Prochainement</p>
+            </div>
+        </article>
+    </section>
+    <footer class="footer background-color">
+            <nav class="text-footer color-text--yellow">
+                <a class="color-text--yellow" href="https://ohmyfood.com">Mentions Légales</a>
+            </nav>
+            <nav class="nav"> 
+                <a class="color-text--yellow" href="mailto:ohmyfood@mozilla.org">Contactez-nous</a> 
+            </nav>    
+    </footer> 
 </body>
 </html>
