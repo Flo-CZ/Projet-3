@@ -6,7 +6,7 @@
 h2
 {
     font-size: 1em;
-    padding-top: 35px;
+    padding-top: 50px;
 }
 
 .color-text--yellow
@@ -14,7 +14,9 @@ h2
     color: rgb(253,203,70);
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
-    text-decoration: none
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 13px;
 }
 
 .logo-omf
@@ -23,23 +25,30 @@ h2
     align-items: center;
 }
 
-.section
+section
 {
-    padding-top: 20px;
+    margin-bottom: 70px;
 }
 
-.section-grid
+.section-align--content
 {
-    display: grid;
-    grid-template-columns: 2fr 2fr; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .align-content
 {
     text-align: center;
-    height: 160px;
+    height: 180px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.article--size
+{
+    width: 150px;
+    margin-bottom: 50px;
 }
 
 .box__shadow
@@ -49,9 +58,8 @@ h2
 
 .fa, .fas
 {
-    padding-top: 30px;
-    margin-bottom: -10px;
-    font-size: 30px;
+    padding-top: 35px;
+    font-size: 25px;
     background: -webkit-linear-gradient(left, rgb(239, 71, 95), rgb(246, 145, 106));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -59,7 +67,7 @@ h2
 
 .title-note
 {
-    margin-top: -30px;
+    margin-top: -46px;
 }
 
 .article-note
@@ -76,7 +84,7 @@ h2
 .menu__note--size
 {
     margin-top: -8px;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .article-chic
@@ -99,7 +107,8 @@ h2
 
 .article__police--courgette
 {
-    font-family: 'Courgette', cursive;    
+    font-family: 'Courgette', cursive;
+    font-size: 0.9em;    
 }
 
 .article-delice
@@ -136,26 +145,15 @@ h2
     color: rgb(114,191,86);
 }
 
-.menu__element--left
-{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    margin-right: 15px;
-}
-
-.menu__element--right
-{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 15px;
-    margin-right: 30px;
-}
-
 .btn
 {
     display: flex;
     justify-content: center;
+}
+
+.text-footer
+{
+    size: 1em;
 }
 
 .soon
@@ -167,12 +165,82 @@ h2
     width: 150px;
 }
 
-
 @media only screen and (min-width: 768px) {
+
+.logo-omf
+{
+    width: 200px;
+}
+
+h2
+{
+    width: 280px;
+    margin-left: -22px;
+}
+
+p
+{
+    font-size: 1em;
+}
+
+.menu__note--size
+{
+    font-size: 1.2em;
+}
+
+.fa, .fas
+{
+    font-size: 40px;
+}
+
+.menus-align
+{
+    display: flex;
+    height: 500px;
+}
+
+.menus--pading--font
+{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 1.8em;
+}
+
+
+.align-content
+{
+    margin-top: 80px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
+.article--left
+{
+    margin-left: 30px;
+}
+
+.article--right
+{
+    margin-right: 30px;
+}
+
+.soon
+{
+    width: 180px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.5em;   
+}
 
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) 
+{
+
+.menus--pading--font
+{
+    font-size: 1.5em;
+}
 
 }
 
