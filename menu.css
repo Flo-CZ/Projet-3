@@ -1,7 +1,92 @@
+/* Taille et largeur width menu */
+
 .section-block
 {
     margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menus--size--font
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1em;
+}
+
+.menus--text-center
+{
+    text-align: center;
+}
+
+.price
+{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.note--size-icon
+{
+
+}
+
+.note--icon--align
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.fa, .fas
+{
+
+}
+
+hr
+{
+    background-color: black;
+    height: 2px;
+}
+
+.note--text-footer-icon
+{
+    padding-left: 15px;
+}
+
+/* Couleurs Textes et Titre "La note enchantée" */
+
+.article-note
+{
+    color: rgb(60, 18, 24)
+}
+
+/* Couleurs Textes et Titre "Le chic à la française" */
+
+/* Couleurs Textes et Titre "Le délice des papilles" */
+
+/* Couleurs Textes et Titre "La palette du goût" */
+
+/* Media Queries Menus */
+
+@media only screen and (min-width: 768px) 
+{   
+ 
+.menus--size--font
+{
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 1.5em;
+}
+
+  
+}
+
+@media only screen and (min-width: 1024px) 
+{
+
 }
