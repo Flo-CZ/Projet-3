@@ -45,10 +45,19 @@
 
 }
 
+.menus--title--hr
+{
+    display: flex;
+    text-align: center;
+}
+
 hr
 {
     background-color: black;
-    height: 2px;
+    height: 2.5px;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .note--text-footer-icon
