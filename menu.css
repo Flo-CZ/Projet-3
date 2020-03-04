@@ -1,75 +1,74 @@
 /* Taille et largeur width menu */
 
-.section-block
+.section
 {
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.menus--size--font
+.article__size--font
 {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 1em;
 }
 
-.menus--text-center
+.article__text--center
 {
     text-align: center;
+    font-weight: bold;
 }
 
 .price
 {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: -6px;
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.note--size-icon
-{
-
-}
-
-.note--icon--align
+.note__icon--center
 {
     text-align: center;
     padding-bottom: 30px;
 }
 
-.fa, .fas
+.fa-music
 {
-
+    font-size: 30px;
 }
 
-.menus--title--hr
+.menus__title
 {
     display: flex;
-    text-align: center;
+    justify-content: center;
 }
 
-hr
+p
 {
-    background-color: black;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+span
+{
+    align-self: center;
+    padding-left: 20px;
+}
+
+.hr__note--color
+{
+    background-color: rgb(60, 18, 24);
     height: 2.5px;
-    width: 300px;
+    width: 150px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.note--text-footer-icon
+.article__padding--icon
 {
     padding-left: 15px;
-}
-
-/* Couleurs Textes et Titre "La note enchantée" */
-
-.article-note
-{
-    color: rgb(60, 18, 24)
 }
 
 /* Couleurs Textes et Titre "Le chic à la française" */
@@ -82,20 +81,17 @@ hr
 
 @media only screen and (min-width: 768px) 
 {   
- 
-.menus--size--font
-{
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-left: 80px;
-    margin-right: 80px;
-    font-size: 1.5em;
-}
 
-  
 }
 
 @media only screen and (min-width: 1024px) 
 {
+
+}
+
+
+@media only screen and (min-width: 1200px) 
+{
+
 
 }
