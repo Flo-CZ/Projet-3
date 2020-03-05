@@ -132,6 +132,16 @@ p
     margin-right: 10px;
 }
 
+.fa-music
+{
+    font-size: 35px;
+}
+
+.note__icon--center
+{
+    font-size: 1.4em;
+}
+
 .price
 {
     font-weight: bold;
