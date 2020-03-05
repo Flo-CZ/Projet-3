@@ -10,8 +10,10 @@
 
 .article__size--font
 {
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 1em;
 }
 
@@ -38,7 +40,7 @@
     font-size: 30px;
 }
 
-.menus__title
+.menu__title
 {
     display: flex;
     justify-content: center;
@@ -54,16 +56,13 @@ p
 span
 {
     align-self: center;
-    padding-left: 20px;
 }
 
 .hr__note--color
 {
     background-color: rgb(60, 18, 24);
     height: 2.5px;
-    width: 150px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 80px;
 }
 
 .article__padding--icon
@@ -80,9 +79,64 @@ span
 /* Media Queries Menus */
 
 @media only screen and (min-width: 768px) 
-{   
+{
 
+.section
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
 }
+
+.article__size--font
+{
+    height: 950px;
+}
+
+h1
+{
+    font-size: 1.5em;
+}
+
+p
+{
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.hr__note--color
+{
+    width: 150px;
+}
+
+.menu__title
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.article__title
+{
+    margin-top: 20px;
+}
+
+.article__text--center
+{
+    font-size: 1.2em;
+}
+
+.article__menu--text
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.price
+{
+    font-weight: bold;
+}
+
 
 @media only screen and (min-width: 1024px) 
 {
