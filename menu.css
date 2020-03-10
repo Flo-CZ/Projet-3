@@ -58,11 +58,33 @@ span
     align-self: center;
 }
 
+
+/* hr menus */
+
+hr
+{
+    height: 2.5px;
+    width: 80px;
+}
+
 .hr__note--color
 {
     background-color: rgb(60, 18, 24);
-    height: 2.5px;
-    width: 80px;
+}
+
+.hr__chic--color
+{
+
+}
+
+.hr__delice--color
+{
+
+}
+
+.hr__palette--color
+{
+
 }
 
 .article__padding--icon
@@ -91,6 +113,7 @@ span
 .article__size--font
 {
     height: 950px;
+    width: 630px;
 }
 
 h1

@@ -1,3 +1,5 @@
+/* Taille, Polices, et largeur width menu */
+
 .bold
 {
     font-weight: bold;
@@ -37,6 +39,22 @@ section
     align-items: center;
 }
 
+.box__shadow
+{
+    box-shadow: 1px 1px 5px rgb(189, 188, 188);;
+}
+
+.fa, .fas
+{
+    padding-top: 35px;
+    font-size: 25px;
+    background: -webkit-linear-gradient(left, rgb(239, 71, 95), rgb(246, 145, 106));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Section article */
+
 .article__menu--size
 {
     text-align: center;
@@ -51,19 +69,6 @@ section
     margin-bottom: 50px;
 }
 
-.box__shadow
-{
-    box-shadow: 1px 1px 5px rgb(189, 188, 188);;
-}
-
-.fa, .fas
-{
-    padding-top: 35px;
-    font-size: 25px;
-    background: -webkit-linear-gradient(left, rgb(239, 71, 95), rgb(246, 145, 106));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 .article__title--note
 {
@@ -128,7 +133,7 @@ section
     color: rgb(8, 135, 251);
 }
 
-.article-palette
+.article__palette--color
 {
     background-color: rgb(253, 255, 253);
 }
