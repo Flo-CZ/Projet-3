@@ -98,16 +98,16 @@ section
     background-color: rgb(255, 245, 254);
 }
 
+.article__chic-text--color
+{
+    color: rgb(199,116,18);
+}
+
 .article__title-chic
 {
     background: -webkit-linear-gradient(left, rgb(199,116,18), rgb(144, 91, 253));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
-}
-
-.article__chic--color
-{
-    color: rgb(199,116,18);
 }
 
 .article__police--courgette
@@ -118,7 +118,7 @@ section
 
 .article__delice--color
 {
-    background-color: rgb(249, 249, 249); 
+    background-color: rgb(237, 239, 239); 
 }
 
 .article__title-delice
@@ -128,7 +128,7 @@ section
     -webkit-text-fill-color: transparent; 
 }
 
-.article__delice--color
+.article__delice-text--color
 {
     color: rgb(8, 135, 251);
 }
@@ -138,16 +138,16 @@ section
     background-color: rgb(253, 255, 253);
 }
 
+.article__palette-text--color
+{
+    color: rgb(114,191,86);
+}
+
 .article__title-palette
 {
     background: -webkit-linear-gradient(left, rgb(61, 147, 57), rgb(191, 255, 126));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
-}
-
-.article__palette--color
-{
-    color: rgb(114,191,86);
 }
 
 .btn

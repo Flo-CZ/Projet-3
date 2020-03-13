@@ -23,6 +23,20 @@
     font-weight: bold;
 }
 
+/* h1 padding margin chic, note et délice et h1 menus delice et palette */
+
+.article__padding
+{
+    padding-top: 20px;
+}
+
+.article__h1
+{
+    font-size: 1.6em;
+}
+
+/* Paragraphes, prix, icône musique */
+
 .price
 {
     padding-left: 5px;
@@ -72,19 +86,66 @@ hr
     background-color: rgb(60, 18, 24);
 }
 
-.hr__chic--color
-{
+/* Couleurs hr, textes et prix "chic à la française" */
 
+
+.hr__menu--brown
+{       
+    background-color: rgb(198, 116, 18);
 }
 
-.hr__delice--color
+.hr__menu--purple
 {
-
+    background-color: rgb(165, 103, 153);
 }
 
-.hr__palette--color
+.hr__menu--dark-purple
 {
+    background-color: rgb(110, 76, 204);
+}
 
+.menu__color--brown
+{
+    color: rgb(198, 116, 18);
+}
+
+.menu__color--purple
+{
+    color: rgb(165, 103, 153);
+}
+
+.menu__color--dark-purple
+{
+    color: rgb(110, 76, 204);
+}
+
+/* Couleurs hr "Le délice des papilles" */
+
+.hr__delice-color--dark-blue
+{
+    background-color: rgb(2, 40, 221);
+}
+
+.hr__delice-color--blue
+{
+    background-color: rgb(6, 112, 243);
+}
+
+.hr__delice-color--light-blue
+{
+    background-color: rgb(34, 157, 249)
+}
+
+/* Couleurs hr "La palette du goût" */
+
+.hr__left-palette--color
+{
+    background: -webkit-linear-gradient(left, rgb(61, 147, 57), rgb(191, 255, 126)); 
+}
+
+.hr__right-palette--color
+{
+    background: -webkit-linear-gradient(right, rgb(61, 147, 57), rgb(191, 255, 126));
 }
 
 .article__padding--icon
@@ -92,13 +153,6 @@ hr
     padding-left: 15px;
 }
 
-/* Couleurs Textes et Titre "Le chic à la française" */
-
-/* Couleurs Textes et Titre "Le délice des papilles" */
-
-/* Couleurs Textes et Titre "La palette du goût" */
-
-/* Media Queries Menus */
 
 @media only screen and (min-width: 768px) 
 {
@@ -110,11 +164,6 @@ hr
     margin-bottom: 90px;
 }
 
-.article__size--font
-{
-    height: 950px;
-    width: 630px;
-}
 
 h1
 {
@@ -133,10 +182,31 @@ hr
     width: 150px;
 }
 
-.menu__title
+/* hr "Le chic à la française" width "pour se mettre en appétit" */
+
+.hr__chic--width
 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 110px;
+}
+
+/* hr "Les délices des papilles" width "Pour bien commencer" */
+
+.hr__delice--width
+{
+    width: 135px;
+}
+
+/* hr "La palette du goût" width "Esquisse" */
+
+.hr__palette--width
+{
+    width: 180px;
+}
+
+.article__size--font
+{
+    height: 950px;
+    width: 630px;
 }
 
 .article__title
@@ -153,6 +223,34 @@ hr
 {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.article__padding
+{
+    padding-top: 60px;
+}
+
+.article__h1
+{
+    font-size: 1.8em;
+}
+
+.article__h1--padding-bottom 
+{
+    padding-bottom: 30px;
+}
+
+.article__menu-chic--margin
+{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+
+.menu__title
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .fa-music
@@ -172,13 +270,3 @@ hr
 
 }
 
-@media only screen and (min-width: 1024px) 
-{
-
-}
-
-
-@media only screen and (min-width: 1200px) 
-{
-
-}
