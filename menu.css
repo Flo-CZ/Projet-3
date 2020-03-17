@@ -1,4 +1,4 @@
-/* Taille et largeur width menu */
+/* Taille et largeur width menu + h2 */
 
 .section
 {
@@ -6,6 +6,11 @@
     margin-bottom: 60px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+h2
+{
+    margin-top: -6px;
 }
 
 .article__size--font
@@ -84,6 +89,11 @@ hr
 .hr__note--color
 {
     background-color: rgb(60, 18, 24);
+}
+
+.hr__height
+{
+height: 2px;
 }
 
 /* Couleurs hr, textes et prix "chic à la française" */

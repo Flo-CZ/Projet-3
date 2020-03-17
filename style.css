@@ -5,12 +5,6 @@
     font-weight: bold;
 }
 
-h2
-{
-    font-size: 1em;
-    padding-top: 50px;
-}
-
 .text--yellow
 {
     color: rgb(253,203,70);
@@ -25,11 +19,6 @@ h2
 {
     width: 130px;
     align-items: center;
-}
-
-section
-{
-    margin-bottom: 70px;
 }
 
 .section__display
@@ -54,6 +43,12 @@ section
 }
 
 /* Section article */
+
+.article__title--font
+{
+    font-size: 1em;
+    padding-top: 50px;
+}
 
 .article__menu--size
 {
@@ -178,8 +173,9 @@ section
     width: 200px;
 }
 
-h2
+.article__title--font
 {
+    font-size: 24px;
     width: 280px;
     margin-left: -22px;
 }
@@ -223,6 +219,11 @@ p
 .article__menu--right
 {
     margin-right: 30px;
+}
+
+.note__icon--center
+{
+    margin-top: -10px;
 }
 
 .soon
