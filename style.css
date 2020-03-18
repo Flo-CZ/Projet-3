@@ -54,16 +54,11 @@
 {
     text-align: center;
     height: 180px;
+    width: 150px;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.article__height--size
-{
-    width: 150px;
     margin-bottom: 50px;
 }
-
 
 .article__title--note
 {
@@ -206,6 +201,7 @@ p
 
 .article__menu--size
 {
+    width: 250px;
     margin-top: 80px;
     margin-left: -40px;
     margin-right: -40px;
