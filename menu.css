@@ -1,4 +1,4 @@
-/* Taille et largeur width menu + h2 */
+/* Taille et largeur width menu + h1 et h2 */
 
 .section
 {
@@ -8,9 +8,16 @@
     margin-right: 10px;
 }
 
+.header__logo--margin
+{
+    margin-top: 0px;
+    margin-bottom: 150px;
+}
+
 h2
 {
     margin-top: -6px;
+    font-size: 1.2em;
 }
 
 .article__size--font
@@ -19,6 +26,7 @@ h2
     margin-right: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 1px;
     font-size: 1em;
 }
 
