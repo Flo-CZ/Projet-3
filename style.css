@@ -1,5 +1,10 @@
 /* Taille, Polices, et largeur width menu */
 
+a
+{
+    text-decoration: none;
+}
+
 .bold
 {
     font-weight: bold;
@@ -171,8 +176,6 @@
 .article__title--font
 {
     font-size: 24px;
-    width: 280px;
-    margin-left: -22px;
 }
 
 p
@@ -205,16 +208,6 @@ p
     margin-top: 80px;
     margin-left: -40px;
     margin-right: -40px;
-}
-
-.article__menu--left
-{
-    margin-left: 30px;
-}
-
-.article__menu--right
-{
-    margin-right: 30px;
 }
 
 .note__icon--center
