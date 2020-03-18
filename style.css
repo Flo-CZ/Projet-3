@@ -194,6 +194,13 @@ p
     height: 500px;
 }
 
+/* Test background nav*/
+.nav__note
+{
+background-color: black;
+}
+/* Test background nav*/
+
 .article__font--pading
 {
     padding-left: 70px;
