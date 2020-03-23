@@ -63,6 +63,12 @@ a
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 50px;
+    transition: transform .2s;
+}
+
+.article__menu--size:hover 
+{
+    transform: scale(1.3);
 }
 
 .article__title--note
