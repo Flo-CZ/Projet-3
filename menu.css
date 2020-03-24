@@ -20,6 +20,9 @@ h2
     font-size: 1.2em;
 }
 
+.underline
+{text-decoration: underline;}
+
 .article__size--font
 {
     margin-left: 10px;
