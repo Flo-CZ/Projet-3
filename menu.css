@@ -213,6 +213,7 @@ h2:hover:before {
     .article__size--font {
         height: 950px;
         width: 630px;
+        font-size: 1.1em;
     }
 
     .article__title {
