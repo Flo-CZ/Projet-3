@@ -1,33 +1,28 @@
 /* Taille et largeur width menu + h1 et h2 */
 
-.section
-{
+.section {
     margin-top: 30px;
     margin-bottom: 60px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.header__logo--margin
-{
+.header__logo--margin {
     margin-top: 0px;
     margin-bottom: 150px;
 }
 
-h1
-{
+h1 {
     margin-bottom: 30px;
 }
 
-h2
-{
+h2 {
     margin-top: -6px;
     font-size: 1.2em;
     position: relative;
 }
 
-.article__size--font
-{
+.article__size--font {
     margin-left: 10px;
     margin-right: 10px;
     padding-left: 20px;
@@ -36,151 +31,126 @@ h2
     font-size: 1em;
 }
 
-.article__text--center
-{
+.article__text--center {
     text-align: center;
     font-weight: bold;
 }
 
 /* h1 padding margin chic, note et délice et h1 menus delice et palette */
 
-.article__padding
-{
+.article__padding {
     padding-top: 20px;
 }
 
-.article__h1
-{
+.article__h1 {
     font-size: 1.6em;
 }
 
 /* Paragraphes, prix, icône musique */
 
-.price
-{
+.price {
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.note__icon--center
-{
+.note__icon--center {
     text-align: center;
     padding-bottom: 30px;
 }
 
-.fa-music
-{
+.fa-music {
     font-size: 30px;
 }
 
-.menu__title
-{
+.menu__title {
     display: flex;
     justify-content: center;
 }
 
-p
-{
+p {
     display: flex;
     margin-top: 20px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
-span
-{
+span {
     align-self: center;
 }
 
 
 /* hr menus */
 
-hr
-{
+hr {
     height: 2.5px;
     width: 80px;
 }
 
-.hr__note--color
-{
+.hr__note--color {
     background-color: rgb(60, 18, 24);
 }
 
-.hr__height
-{
-height: 2px;
+.hr__height {
+    height: 2px;
 }
 
 /* Couleurs hr, textes et prix "chic à la française" */
 
 
-.hr__menu--brown
-{       
+.hr__menu--brown {
     background-color: rgb(198, 116, 18);
 }
 
-.hr__menu--purple
-{
+.hr__menu--purple {
     background-color: rgb(165, 103, 153);
 }
 
-.hr__menu--dark-purple
-{
+.hr__menu--dark-purple {
     background-color: rgb(110, 76, 204);
 }
 
-.menu__color--brown
-{
+.menu__color--brown {
     color: rgb(198, 116, 18);
 }
 
-.menu__color--purple
-{
+.menu__color--purple {
     color: rgb(165, 103, 153);
 }
 
-.menu__color--dark-purple
-{
+.menu__color--dark-purple {
     color: rgb(110, 76, 204);
 }
 
 /* Couleurs hr "Le délice des papilles" */
 
-.hr__delice-color--dark-blue
-{
+.hr__delice-color--dark-blue {
     background-color: rgb(2, 40, 221);
 }
 
-.hr__delice-color--blue
-{
+.hr__delice-color--blue {
     background-color: rgb(6, 112, 243);
 }
 
-.hr__delice-color--light-blue
-{
+.hr__delice-color--light-blue {
     background-color: rgb(34, 157, 249)
 }
 
 /* Couleurs hr "La palette du goût" */
 
-.hr__left-palette--color
-{
-    background: -webkit-linear-gradient(left, rgb(61, 147, 57), rgb(191, 255, 126)); 
+.hr__left-palette--color {
+    background: -webkit-linear-gradient(left, rgb(61, 147, 57), rgb(191, 255, 126));
 }
 
-.hr__right-palette--color
-{
+.hr__right-palette--color {
     background: -webkit-linear-gradient(right, rgb(61, 147, 57), rgb(191, 255, 126));
 }
 
-.article__padding--icon
-{
+.article__padding--icon {
     padding-left: 15px;
 }
 
 /* h2 animation underline */
 
-h2:before
-{
+h2:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -194,124 +164,103 @@ h2:before
     transition: all 0.3s;
 }
 
-h2:hover:before 
-{
+h2:hover:before {
     visibility: visible;
     transform: scaleX(1);
 }
 
-@media only screen and (min-width: 768px) 
-{
+@media only screen and (min-width: 768px) {
 
-.section
-{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 90px;
-}
+    .section {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 90px;
+    }
 
 
-h1
-{
-    font-size: 1.5em;
-}
+    h1 {
+        font-size: 1.5em;
+    }
 
-p
-{
-    justify-content: space-between;
-    padding-left: 40px;
-    padding-right: 40px;
-}
+    p {
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 
-hr
-{
-    width: 150px;
-}
+    hr {
+        width: 150px;
+    }
 
-/* hr "Le chic à la française" width "pour se mettre en appétit" */
+    /* hr "Le chic à la française" width "pour se mettre en appétit" */
 
-.hr__chic--width
-{
-    width: 110px;
-}
+    .hr__chic--width {
+        width: 110px;
+    }
 
-/* hr "Les délices des papilles" width "Pour bien commencer" */
+    /* hr "Les délices des papilles" width "Pour bien commencer" */
 
-.hr__delice--width
-{
-    width: 135px;
-}
+    .hr__delice--width {
+        width: 135px;
+    }
 
-/* hr "La palette du goût" width "Esquisse" */
+    /* hr "La palette du goût" width "Esquisse" */
 
-.hr__palette--width
-{
-    width: 180px;
-}
+    .hr__palette--width {
+        width: 180px;
+    }
 
-.article__size--font
-{
-    height: 950px;
-    width: 630px;
-}
+    .article__size--font {
+        height: 950px;
+        width: 630px;
+    }
 
-.article__title
-{
-    margin-top: 20px;
-}
+    .article__title {
+        margin-top: 20px;
+    }
 
-.article__text--center
-{
-    font-size: 1.2em;
-}
+    .article__text--center {
+        font-size: 1.2em;
+    }
 
-.article__menu--text
-{
-    margin-left: 10px;
-    margin-right: 10px;
-}
+    .article__menu--text {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
-.article__padding
-{
-    padding-top: 60px;
-}
+    .article__padding {
+        padding-top: 60px;
+    }
 
-.article__h1
-{
-    font-size: 1.8em;
-}
+    .article__h1 {
+        font-size: 1.8em;
+    }
 
-.article__h1--padding-bottom 
-{
-    padding-bottom: 30px;
-}
+    .article__h1--padding-bottom {
+        padding-bottom: 30px;
+    }
 
-.article__menu-chic--margin
-{
-    margin-top: 35px;
-    margin-bottom: 35px;
-}
+    .article__menu-chic--margin {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
 
 
-.menu__title
-{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+    .menu__title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
-.fa-music
-{
-    font-size: 35px;
-}
+    .fa-music {
+        font-size: 35px;
+    }
 
-.note__icon--center
-{
-    font-size: 1.4em;
-}
+    .note__icon--center {
+        font-size: 1.4em;
+    }
 
-.price
-{
-    font-weight: bold;
-}
+    .price {
+        font-weight: bold;
+    }
 
 }

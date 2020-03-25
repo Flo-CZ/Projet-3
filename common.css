@@ -1,5 +1,5 @@
-body,html 
-{
+body,
+html {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -7,69 +7,73 @@ body,html
 
 /* header et footer des différentes pages */
 
-.background-color
-{
+.background-color {
     background-color: rgb(87, 156, 135);
 }
 
-.header
-{
+.header {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 15px;
     margin-bottom: 30px;
 }
 
-.footer
-{
+.footer {
     display: flex;
     justify-content: space-between;
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding-top: 10px; 
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
 /* Animation shake*/
 
-.animation__shake:hover 
-{
+.animation__shake:hover {
     animation: shake-text 0.2s;
     animation-iteration-count: infinite;
 }
-  
-@keyframes shake-text 
-{
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    25% { transform: translate(-2px, 0px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    75% { transform: translate(2px, 1px) rotate(-1deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+@keyframes shake-text {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    25% {
+        transform: translate(-2px, 0px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translate(2px, 1px) rotate(-1deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
 }
 
-@media only screen and (min-width: 768px) 
-{
+@media only screen and (min-width: 768px) {
 
-.header
-{
-    height: 50px;   
-}
+    .header {
+        height: 50px;
+    }
 
-.footer
-{
-    height: 30px;
-    font-size: 1.5em;
-}
+    .footer {
+        height: 30px;
+        font-size: 1.5em;
+    }
 
 }
 
-@media only screen and (min-width: 1024px) 
-{
+@media only screen and (min-width: 1024px) {
 
-.header
-{
-    margin-bottom: 80px;   
-}
+    .header {
+        margin-bottom: 80px;
+    }
 
 }
