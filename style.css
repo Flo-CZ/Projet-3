@@ -65,14 +65,12 @@ a {
     transform: scale(1.1);
 }
 
-article
-{
- opacity: 1;
+article {
+    opacity: 1;
 }
 
-article:hover
-{
-opacity: 0.5;    
+article:hover {
+    opacity: 0.5;
 }
 
 .article__title--note {
