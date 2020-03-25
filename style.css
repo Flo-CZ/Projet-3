@@ -1,4 +1,7 @@
-/* Taille, Polices, et largeur width menu */
+h1
+{
+    margin: 0;
+}
 
 a
 {
@@ -63,7 +66,7 @@ a
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 50px;
-    transition: transform .2s;
+    transition: transform 0.2s;
 }
 
 .article__menu--size:hover 
@@ -172,6 +175,37 @@ a
     width: 150px;
 }
 
+/* Animation loading */
+ 
+span.animation__loading .dot 
+{
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    margin-right: 3px;
+    background: rgb(253,203,70);
+    animation: loading 1.2s infinite; 
+}
+  
+span.animation__loading .dot:nth-child(2)
+{
+    animation-delay: -1.0s;  
+}
+
+span.animation__loading .dot:nth-child(3) 
+{
+    animation-delay: -0.8s;
+}
+  
+@keyframes loading 
+{
+    0%,
+    100% 
+    { transform: infinite; }
+    30% 
+    { transform: translateY(-8px); }  
+}
+
 @media only screen and (min-width: 768px) 
 {
 
@@ -203,7 +237,6 @@ p
 .section__menus--align
 {
     display: flex;
-    height: 500px;
 }
 
 /* Test background nav*/
@@ -215,8 +248,6 @@ background-color: black;
 
 .article__font--pading
 {
-    padding-left: 70px;
-    padding-right: 70px;
     font-size: 1.8em;
 }
 
