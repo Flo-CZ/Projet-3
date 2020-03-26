@@ -154,6 +154,11 @@ hr {
     padding-left: 15px;
 }
 
+article:hover
+{
+    opacity: 1;
+}
+
 /* h2 animation underline */
 
 h2:before {

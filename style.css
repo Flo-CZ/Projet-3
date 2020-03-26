@@ -51,6 +51,15 @@ a {
     padding-top: 50px;
 }
 
+article{
+    opacity: 1;
+}
+
+article:hover{
+    opacity: 0.5;
+
+}
+
 .article__menu--size {
     text-align: center;
     height: 180px;
@@ -63,7 +72,6 @@ a {
 
 .article__menu--size:hover {
     transform: scale(1.1);
-    opacity: 0.5;
 }
 
 
