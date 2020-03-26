@@ -146,6 +146,11 @@ article:hover{
     justify-content: center;
 }
 
+.btn:hover
+{
+    opacity: 1;
+}
+
 .footer__text {
     size: 1em;
 }
