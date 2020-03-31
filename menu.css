@@ -1,0 +1,293 @@
+/* Taille et largeur width menu + h1 et h2 */
+
+.section {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section__title {
+    margin-top: 0;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.header__logo--margin {
+    margin-top: 0px;
+    margin-bottom: 150px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: -6px;
+    font-size: 1.2em;
+    position: relative;
+}
+
+.article__size--font {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    font-size: 1em;
+}
+
+.article__text--center {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* h1 padding margin chic, note et délice et h1 menus delice et palette */
+
+.article__padding {
+    padding-top: 20px;
+}
+
+.article__h1 {
+    font-size: 1.6em;
+}
+
+/* Paragraphes, prix, icône musique */
+
+.price {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.note__icon--center {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.fa-music {
+    font-size: 30px;
+}
+
+.menu__title {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span {
+    align-self: center;
+}
+
+
+/* hr menus */
+
+hr {
+    height: 2.5px;
+    width: 80px;
+}
+
+.hr__note--color {
+    background-color: rgb(60, 18, 24);
+    width: 165px;
+}
+
+.hr__prelude {
+    width: 188px;
+}
+
+.hr__height {
+    height: 2px;
+}
+
+/* Couleurs hr, textes et prix "chic à la française" */
+
+
+.hr__menu--brown {
+    background-color: rgb(198, 116, 18);
+}
+
+.hr__menu--purple {
+    background-color: rgb(165, 103, 153);
+    width: 170px;
+}
+
+.hr__menu--dark-purple {
+    background-color: rgb(110, 76, 204);
+}
+
+.menu__color--brown {
+    color: rgb(198, 116, 18);
+}
+
+.menu__color--purple {
+    color: rgb(165, 103, 153);
+}
+
+.menu__color--dark-purple {
+    color: rgb(110, 76, 204);
+}
+
+/* Couleurs hr "Le délice des papilles" */
+
+.hr__delice-color--dark-blue {
+    background-color: rgb(2, 40, 221);
+}
+
+.hr__delice-color--blue {
+    background-color: rgb(6, 112, 243);
+}
+
+.hr__delice-color--light-blue {
+    background-color: rgb(34, 157, 249)
+}
+
+/* Couleurs hr "La palette du goût" */
+
+.hr__left-palette--color {
+    background: -webkit-linear-gradient(left, rgb(61, 147, 57), rgb(191, 255, 126));
+}
+
+.hr__left-palette--color {
+    background-color: rgb(114, 191, 86);
+}
+
+.hr__right-palette--color {
+    background: -webkit-linear-gradient(right, rgb(61, 147, 57), rgb(191, 255, 126));
+}
+
+.hr__right-palette--color {
+    background-color: rgb(114, 191, 86);
+}
+
+.article__padding--icon {
+    padding-left: 15px;
+}
+
+article:hover {
+    opacity: 1;
+}
+
+/* h2 animation underline */
+
+h2:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -5px;
+    background-color: currentcolor;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s;
+}
+
+h2:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+@media only screen and (min-width: 768px) {
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 90px;
+    }
+
+    .section__title {
+        font-size: 2em;
+    }
+
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    hr {
+        width: 150px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    /* hr "Le chic à la française" width "pour se mettre en appétit" */
+
+    .hr__chic--width {
+        width: 146px;
+    }
+
+    /* hr "Les délices des papilles" width "Pour bien commencer" */
+
+    .hr__delice--width {
+        width: 135px;
+    }
+
+    /* hr "La palette du goût" width "Esquisse" */
+
+    .hr__palette--width {
+        width: 180px;
+    }
+
+    .article__size--font {
+        height: 950px;
+        width: 630px;
+        font-size: 1.1em;
+    }
+
+    .article__title {
+        margin-top: 20px;
+    }
+
+    .article__text--center {
+        font-size: 1.2em;
+    }
+
+    .article__menu--text {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .article__padding {
+        padding-top: 60px;
+    }
+
+    .article__h1 {
+        font-size: 1.8em;
+    }
+
+    .article__h1--padding-bottom {
+        padding-bottom: 30px;
+    }
+
+    .article__menu-chic--margin {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .fa-music {
+        font-size: 35px;
+    }
+
+    .note__icon--center {
+        font-size: 1.4em;
+    }
+
+    .price {
+        font-weight: bold;
+    }
+
+}
