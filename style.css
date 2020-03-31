@@ -152,7 +152,7 @@ article:hover{
 }
 
 .footer__text {
-    size: 1em;
+    font-size: 1em;
 }
 
 .soon {
@@ -187,7 +187,7 @@ span.animation__loading .dot:nth-child(3) {
 
     0%,
     100% {
-        transform: infinite;
+        animation-iteration-count: infinite;
     }
 
     30% {
