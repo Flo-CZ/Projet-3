@@ -7,6 +7,13 @@
     margin-right: 10px;
 }
 
+.section__title {
+    margin-top: 0;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 .header__logo--margin {
     margin-top: 0px;
     margin-bottom: 150px;
@@ -146,16 +153,23 @@ hr {
     background: -webkit-linear-gradient(left, rgb(61, 147, 57), rgb(191, 255, 126));
 }
 
+.hr__left-palette--color {
+    background-color: rgb(114, 191, 86);
+}
+
 .hr__right-palette--color {
     background: -webkit-linear-gradient(right, rgb(61, 147, 57), rgb(191, 255, 126));
+}
+
+.hr__right-palette--color {
+    background-color: rgb(114, 191, 86);
 }
 
 .article__padding--icon {
     padding-left: 15px;
 }
 
-article:hover
-{
+article:hover {
     opacity: 1;
 }
 
@@ -184,8 +198,13 @@ h2:hover:before {
 
     .section {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         margin-bottom: 90px;
+    }
+
+    .section__title {
+        font-size: 2em;
     }
 
 
