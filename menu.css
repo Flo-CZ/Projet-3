@@ -98,11 +98,11 @@ hr {
 
 .hr__note--color {
     background-color: rgb(60, 18, 24);
-    width: 165px;
+    width: 60px;
 }
 
 .hr__prelude {
-    width: 188px;
+    width: 60px;
 }
 
 .hr__height {
@@ -228,6 +228,14 @@ h2:hover:before {
         width: 150px;
         margin-right: 30px;
         margin-left: 30px;
+    }
+
+    .hr__note--color {
+        width: 165px;
+    }
+
+    .hr__prelude {
+        width: 188px;
     }
 
     /* hr "Le chic à la française" width "pour se mettre en appétit" */
