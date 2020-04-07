@@ -118,7 +118,7 @@ hr {
 
 .hr__menu--purple {
     background-color: rgb(165, 103, 153);
-    width: 170px;
+    width: 80px;
 }
 
 .hr__menu--dark-purple {
@@ -242,6 +242,10 @@ h2:hover:before {
 
     .hr__chic--width {
         width: 146px;
+    }
+
+    .hr__menu--purple {
+        width: 170px;
     }
 
     /* hr "Les délices des papilles" width "Pour bien commencer" */
