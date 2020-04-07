@@ -81,6 +81,7 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    font-size: 1.1em;
 }
 
 span {
@@ -220,6 +221,7 @@ h2:hover:before {
         justify-content: space-between;
         padding-left: 40px;
         padding-right: 40px;
+        font-size: 1em;
     }
 
     hr {
