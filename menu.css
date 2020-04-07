@@ -21,7 +21,6 @@
 
 h1 {
     margin-bottom: 30px;
-    font-size: 1.5em;
 }
 
 h2 {
@@ -82,7 +81,6 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 1.1em;
 }
 
 span {
@@ -249,7 +247,7 @@ h2:hover:before {
     }
 
     .article__size--font {
-        height: 950px;
+        height: 980px;
         width: 630px;
         font-size: 1.1em;
     }
